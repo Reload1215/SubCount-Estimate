@@ -1,4 +1,8 @@
-let demo = new CountUp('myTargetElement', 6014);
+const options = {
+  startVal: 103120000,
+  duration: 500000,
+};
+let demo = new CountUp('myTargetElement', 103160000, options);
 if (!demo.error) {
   demo.start();
 } else {
